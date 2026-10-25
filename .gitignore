@@ -1,0 +1,30 @@
+# Keil 编译产物
+MDK-ARM/*/*.o
+MDK-ARM/*/*.d
+MDK-ARM/*/*.crf
+MDK-ARM/*/*.axf
+MDK-ARM/*/*.hex
+MDK-ARM/*/*.map
+MDK-ARM/*/*.lst
+MDK-ARM/*/*.htm
+MDK-ARM/*/*.dep
+MDK-ARM/*/*.lnp
+MDK-ARM/*/*.sct
+MDK-ARM/*/*.build_log.htm
+MDK-ARM/DebugConfig/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvguix*
+
+# STM32CubeMX 生成缓存
+.mxproject.bak
+
+# 私有配置（OneNET 参数等）
+Core/Inc/nb_iot_config.h
+Core/Inc/secrets.h
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.zip
+*.7z
+*.rar
